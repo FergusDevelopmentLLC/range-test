@@ -10,7 +10,7 @@ export const App = () => {
   }
 
   return (
-    <div className="App">
+    <div>
       <p>The range value is: {rangeValue}</p>
       <Range setRangeValue = {setRangeValue}/>
       <p><a href="/#" onClick={reset}>reset</a></p>
