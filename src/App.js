@@ -24,7 +24,13 @@ const Range = ({setRangeValue: setRangeValue}) =>
     setRangeValue(event.target.value)
   }
   return (
-    <input type="range" min="0" max="10" step="1" defaultValue={0} onChange={(event) => {handleChange(event)}} />
+    <input 
+      type="range"
+      min="0"
+      max="10"
+      step="1"
+      defaultValue={0}
+      onChange={(event) => {handleChange(event)}} />
   )
 }
 
